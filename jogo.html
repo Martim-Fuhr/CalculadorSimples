@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favi.png" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+    <title>Jogo da Memória</title>
+</head>
+<body>
+    
+    <div class="memory-game">
+        <h1>Jogo da Memória</h1>
+        <p>E aí, pronto para testar a sua memória? Aqui ao lado estará sua prontuação: <input type="text" name="display" readonly></p>
+        <p class="small">*Imagens são carregadas apenas abrindo pelo "Go Live" do VS Code*</p>
+        <div class="cartas">
+            <img onclick="alterarImagem(event, 0)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 1)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 2)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 3)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 4)" src="img/js.png" alt="Carta do jogo">
+        </div>
+      
+        <div class="cartas">
+            <img onclick="alterarImagem(event, 5)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 6)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 7)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 8)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 9)" src="img/js.png" alt="Carta do jogo">
+        </div>
+
+        <div class="cartas">
+            <img onclick="alterarImagem(event, 10)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 11)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 12)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 13)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 14)" src="img/js.png" alt="Carta do jogo">
+        </div>
+      
+        <div class="cartas">
+            <img onclick="alterarImagem(event, 15)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 16)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 17)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 18)" src="img/js.png" alt="Carta do jogo">
+            <img onclick="alterarImagem(event, 19)" src="img/js.png" alt="Carta do jogo">
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
